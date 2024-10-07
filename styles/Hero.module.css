@@ -1,0 +1,175 @@
+ 
+/* ----------------------------------------------------------------------- */
+.hero {
+    position: relative;
+  }
+  .field {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.field span {
+    font-size: 14px;
+    color: #666b72;
+}
+.priceInput {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.field input {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #dad6d6;
+    text-align: center;
+    font-size: 14px;
+    color: #545455;
+}
+  .poductsCard {
+    padding-top: 100px;
+  }
+  .dropMenu_hero .uldropMenu {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px;
+    overflow: hidden;
+    transition: var(--transition);
+    position: absolute;
+    background: #fff;
+    left: 0;
+    top: 80px;
+    border: 1px solid var(--unnamed-color-A0051C);
+    border-radius: 30px !important;
+    padding: 20px;
+    width: 100%;
+    opacity: 0;
+  }
+  
+  .dropMenu_hero  {
+    position: relative;
+  }
+  .uldropMenu.visible {
+    opacity: 1;
+    pointer-events: visible;
+    top: 60px;
+  }
+  
+.niceSelect {
+    background: #fff;
+    border-radius: 35px;
+    height: 100%;
+    width: 100%;
+    padding:14px 25px;
+    padding-right: 47px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+.niceSelect:after {
+    border-bottom: 2px solid #54545570;
+    border-right: 2px solid #54545570;
+    content: "";
+    display: block;
+    height: 10px;
+    margin-top: -4px;
+    pointer-events: none;
+    position: absolute;
+    right: 25px;
+    top: 45%;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 10px;
+  }
+  .hero_vedio {
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+    filter: brightness(0.5);
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .hero_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  
+  .hero .list {
+    padding: 15px !important;
+    border: 3px solid var(--unnamed-color-A0051C);
+  }
+  
+  .hero .nice-select .list {
+    top: 140%;
+  }
+  
+  .hero .nice-select.open {
+    border: 3px solid var(--unnamed-color-A0051C);
+  }
+   
+  .hero_content h2 {
+    font-size: 62px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    margin: auto !important;
+  }
+  .back_inputs {
+    width: 100%;
+    background: #0000008c 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    padding: 40px 35px;
+    display: flex;
+    gap: 16px;
+    margin-top: 50px !important;
+    flex-direction: column;
+  }
+  
+ 
+  
+  
+  
+ 
+  
+  
+.input_locatin {
+    background: #fff;
+    border-radius: 35px;
+    height: 50px;
+    position: relative;
+    color: var(--unnamed-color-545455);
+  }
+  
+  .input_locatin i {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .input_locatin input {
+    background: #fff;
+    border-radius: 35px;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    padding-right: 47px;
+    font-size: 14px;
+  }
+  
+  .input_locatin input::placeholder {
+    color: #545455 !important;
+  }

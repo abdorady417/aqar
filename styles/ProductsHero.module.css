@@ -1,0 +1,159 @@
+.poductsCard {
+  padding-top: 100px;
+}
+
+.poductsCard .pad15 {
+  margin-top: 24px !important;
+}
+
+.off {
+  position: absolute;
+  top: 7%;
+  right: 6%;
+  width: 30px;
+  height: 30px;
+  background: rgba(35, 38, 42, 0.5);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.off svg {
+  transition: var(--transition);
+  font-size: 14px;
+  color: #fff;
+}
+
+.pad15 {
+  border: 1px solid #e3e3e3;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  transition: var(--transition);
+}
+.ads_card_row .relative_img {
+  height: 100%;
+}
+
+.slider_title h2 {
+  font-size: 62px;
+  color: var(--unnamed-color-545455);
+}
+.slider_title .div img {
+  position: absolute;
+  right: -13px;
+  bottom: -33%;
+  width: auto;
+  height: auto;
+}
+
+.slider_title .div {
+  position: relative;
+}
+.slider_title {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.poductsCard .d_between .h2 span {
+  color: var(--unnamed-color-A0051C);
+}
+
+.poductsCard .d_between .h2 {
+  color: var(--unnamed-color-545455);
+}
+.who_you {
+  width: 80px;
+  height: 30px;
+  background: #fef9f0;
+  font-size: 14px;
+  border-radius: 15px;
+  color: #f3a42a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider_title h2 {
+  font-size: 62px;
+  color: var(--unnamed-color-545455);
+}
+.ads_card_row .relative_img {
+  height: 100%;
+}
+.relative_img {
+  position: relative;
+  height: 220px;
+}
+
+.pad15 .aside1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.aside2 {
+  display: flex;
+  color: #bababa;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.aside3 .aside2 {
+  font-size: 12px;
+}
+
+.pad15 .aside1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+.pad15 h6 {
+  background: linear-gradient(284deg, #f14d5c, #a0051c) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  font-size: 14px;
+  font-weight: 900 !important;
+}
+.aside3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.pad15 .h4 {
+  font-size: 14px;
+  color: #545455;
+  padding: 15px 0  ;
+  font-weight: 800 !important;
+}
+.aside2 {
+  display: flex;
+  color: #bababa;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.aside3 .aside2 {
+  font-size: 12px;
+}
+.pad15 img {
+  width: 100% !important;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 1pc;
+}
